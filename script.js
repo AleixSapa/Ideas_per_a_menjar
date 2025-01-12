@@ -4,9 +4,7 @@ function inici() {
     if(ai_tomate="Si"){
         mostrar=["Amanida de tomaquet"] 
     }
-    
-}
-function Fi(){
     alert("Les ideas son:")
     alert(mostrar)
+    
 }
