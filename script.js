@@ -1,24 +1,36 @@
 var mostrar={}
 var ai_tomate
 var i_ha_macarons
-function Els_ifs() {
+numero_contador=0
+function Preguntas() {
     ai_tomate=prompt("Tens tomaquet")
+    i_ha_macarons=prompt("Tens macarons")
+}
+function Els_ifs() {
     if(ai_tomate=="Si"){
         mostrar=["Amenida de tomaquet"] 
     }
-    i_ha_macarons=prompt("Tens macarons")
     if(i_ha_macarons=="Si"){
         mostrar=["Macarons"] 
     }
+    Convinats()
+}
+function Convinats() {
     if(i_ha_macarons=="Si" && ai_tomate=="Si"){
         mostrar=["Macarons amb tomaquet"]
-    }
- 
+    } 
 }
 function inici() {
-
+    Preguntas(i_ha_macarons=prompt("Tens macarons"))
     Els_ifs()
     alert("Les ideas son:")
-    numero_contador=0
-        alert(mostrar[numero_contador])
+    Fi()
+    Fi()
+    Fi()
+    Fi()
+    Fi()
+}
+function Fi() {
+    alert(mostrar[numero_contador])
+    numero_contador=numero_contador+1
 }
