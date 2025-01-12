@@ -1,6 +1,6 @@
 mostrar={}
 function inici() {
-    ai_tomate=prompt("Tienes tomate?")
+    ai_tomate=prompt("Tens tomate?")
     if(ai_tomate="Si"){
         mostrar=["Amanida de tomaquet"] 
     }
