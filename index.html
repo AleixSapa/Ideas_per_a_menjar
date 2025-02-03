@@ -1,2 +1,62 @@
-<script src="script.js"></script>
-<button onclick="inici()">Ideas?</button>
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Descubre recetas fáciles y deliciosas para cocinar en casa."
+    />
+    <title>Recetas Fáciles</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Recetas Fáciles</h1>
+      <nav>
+        <ul>
+          <li><a href="#" tabindex="1">Inicio</a></li>
+          <li><a href="#recetas" tabindex="2">Recetas</a></li>
+          <li><a href="#" tabindex="3">Subir Receta</a></li>
+          <li><a href="#" tabindex="4">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <h2>Descubre recetas deliciosas y fáciles de hacer</h2>
+      </section>
+
+      <section class="recetas" id="recetas">
+        <h2>Recetas Destacadas</h2>
+        <div class="receta">
+          <h3><a href="recetas/pasta-alfredo.html">Pasta Alfredo</a></h3>
+          <p>Una receta deliciosa con salsa cremosa.</p>
+        </div>
+        <div class="receta">
+          <h3><a href="recetas/tarta-manzana.html">Tarta de Manzana</a></h3>
+          <p>Un postre clásico con un toque especial.</p>
+        </div>
+        <div class="receta">
+          <h3><a href="recetas/pizza-casera.html">Pizza Casera</a></h3>
+          <p>Haz tu propia pizza en casa con ingredientes frescos.</p>
+        </div>
+        <div class="receta">
+          <h3><a href="recetas/sopa-tomate.html">Sopa de Tomate</a></h3>
+          <p>Una sopa reconfortante para cualquier momento.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Recetas Fáciles. Todos los derechos reservados.</p>
+    </footer>
+
+    <div id="notification" class="notification">
+      ¡Bienvenido a Recetas Fáciles!
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
